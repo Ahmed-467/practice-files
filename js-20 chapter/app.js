@@ -23,5 +23,12 @@ console.log(username[2]);
 
 console.log(username.toLowerCase());
 
-// const city = prompt ("which city do you live");
+const city = prompt ("which city do you live");
+
+if(city.toLowerCase() === 'Ahmed'){
+        console.log('Ahmed is good boy');
+    }else{
+        console.log('Ahmed is bad boy!');
+    }
+
 
